@@ -1,0 +1,111 @@
+:root {
+    --general_color: #0a1d38;
+    --header_img_width: 6%;
+    --header_img_margin: 0.5rem;
+}
+
+html {
+    box-sizing: border-box;
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: 'Play', sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    margin: 0;
+    position: absolute;
+    top: var(--header_img_margin);
+    left: calc(var(--header_img_margin) * 3 + var(--header_img_width));
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+
+.main-header {
+    position: relative;
+    background-color: var(--general_color);
+    width: 100%;
+    height: 20vh;
+}
+
+.main-header img{
+    width: var(--header_img_width);
+    height: calc(20vh - 1rem);
+    margin:  var(--header_img_margin);
+}
+
+.main-header p {
+    margin: 0;
+    position: absolute;
+    top: 3rem;
+    left: calc(var(--header_img_margin) * 3 + var(--header_img_width));
+    color: #ffffff;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+.nav-menu {
+    position: absolute;
+    bottom: 0.5rem;
+    right: calc(var(--header_img_margin) * 3 + var(--header_img_width));
+}
+
+.nav-menu a {
+    color: #ffffff;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+.nav-menu a:hover {
+    text-decoration: underline;
+    font-size: 1.2rem;
+}
+
+.main {
+    margin:0;
+    width: 100%;
+    height: 80vh;
+    background-image: url("/img/main-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+.about-me h2 {
+    position: absolute;
+    top: 20vh;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--general_color);
+    font-weight: 700;
+}
+
+.about-me img {
+    position: absolute;
+    top: 25vh;
+    left: calc(var(--header_img_margin) * 3 + var(--header_img_width));
+    width: 35vw;
+}
+
+.about-me p {
+    position: absolute;
+    top: 32vh;
+    right: calc(var(--header_img_margin) * 3 + var(--header_img_width));
+    width: 40vw;
+    height: 50vh;
+    background-color: #080f36d5;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: #ffffff;
+    font-size: 1.2rem;
+    line-height: 2rem;
+
+}

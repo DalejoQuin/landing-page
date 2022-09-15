@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="99.876968mm"
+   height="99.449448mm"
+   viewBox="0 0 99.876963 99.449447"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="logo2.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.0729879"
+     inkscape:cx="133.27271"
+     inkscape:cy="201.30702"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient2034"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#f7f7f7;stop-opacity:1;"
+         offset="0"
+         id="stop2032" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2034"
+       id="linearGradient2036"
+       x1="37.402859"
+       y1="51.547142"
+       x2="123.40286"
+       y2="51.547142"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(6.046936,18.00718)" />
+  </defs>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-43.949794,-26.054323)">
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:url(#linearGradient2036);stroke-width:1.5;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       id="rect1473"
+       width="82.134651"
+       height="82.134651"
+       x="45.382469"
+       y="27.486998" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#f9f9f9;stroke-width:1.5;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       id="rect1477"
+       width="82.134644"
+       height="82.134644"
+       x="60.259445"
+       y="41.936455" />
+    <rect
+       style="fill:#ffcc00;fill-opacity:1;stroke-width:0.819424;paint-order:fill markers stroke"
+       id="rect111"
+       width="87"
+       height="87"
+       x="50.540245"
+       y="32.225075" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:56.8402px;font-family:'Malgun Gothic';-inkscape-font-specification:'Malgun Gothic Bold';fill:#000000;stroke-width:2.46158;stroke-linecap:round;paint-order:stroke markers fill"
+       x="55.456966"
+       y="95.575882"
+       id="text219"
+       transform="scale(1.0213473,0.97909892)"><tspan
+         sodipodi:role="line"
+         id="tspan217"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:56.8402px;font-family:'Malgun Gothic';-inkscape-font-specification:'Malgun Gothic Bold';fill:#000000;stroke-width:2.46158"
+         x="55.456966"
+         y="95.575882">D</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:52.7776px;font-family:Marlett;-inkscape-font-specification:'Marlett Bold';fill:#000000;stroke-width:2.28565;stroke-linecap:round;paint-order:stroke markers fill"
+       x="81.384308"
+       y="119.6064"
+       id="text219-1"
+       transform="scale(1.0394026,0.96209111)"><tspan
+         sodipodi:role="line"
+         id="tspan217-4"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:52.7776px;font-family:'Malgun Gothic';-inkscape-font-specification:'Malgun Gothic Bold';fill:#000000;stroke-width:2.28565"
+         x="81.384308"
+         y="119.6064">Q</tspan></text>
+  </g>
+</svg>
