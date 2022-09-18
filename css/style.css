@@ -71,22 +71,29 @@ h1 {
 .main {
     margin:0;
     width: 100%;
-    height: 80vh;
-    background-image: url("/img/main-background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.5;
+    height: 150vh;
+    background-color: #91a9cc9a;
 }
 
 .main h2 {
     display: inline-block;
 }
 
-.main img {
+.main img[src="img/whatsapp-logo.webp"] {
     width: 3rem;
     height: 3rem;
     position: fixed;
-    left: 95vw;
+    left: 93vw;
+    opacity: 0.4;
+}
+
+.main img[src="img/whatsapp-logo.webp"]:hover {
+    opacity: 1;
+}
+
+.about-me {
+    width: 100%;
+    height: 70vh;
 }
 
 .about-me h3 {
@@ -118,6 +125,109 @@ h1 {
     color: #ffffff;
     font-size: 1.2rem;
     line-height: 2rem;
+}
+
+.habilities {
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+}
+
+.habilities h3 {
+    position: relative;
+    font-size: 1.5rem;
+    color: var(--general_color);
+    font-weight: 700;
+}
+
+.hab1, 
+.hab2,
+.hab3,
+.hab4,
+.hab5 {
+    display: inline-block;
+}
+
+.hab1 p {
+    position: absolute;
+    left: 13.5rem;
+    color: var(--general_color);
+    font-size: 1.5rem;
+    font-weight: 600;
+    visibility: hidden;
+}
+
+.hab2 p {
+    position: absolute;
+    left: 25rem;
+    color: var(--general_color);
+    font-size: 1.5rem;
+    font-weight: 600;
+    visibility: hidden;
+}
+
+.hab3 p {
+    position: absolute;
+    left: 36.5rem;
+    color: var(--general_color);
+    font-size: 1.5rem;
+    font-weight: 600;
+    visibility: hidden;
+}
+
+.hab4 p {
+    position: absolute;
+    left: 48rem;
+    color: var(--general_color);
+    font-size: 1.5rem;
+    font-weight: 600;
+    visibility: hidden;
+}
+
+.hab5 p {
+    position: absolute;
+    left: 62.5rem;
+    color: var(--general_color);
+    font-size: 1.5rem;
+    font-weight: 600;
+    visibility: hidden;
+}
+
+.hab1:hover p,
+.hab2:hover p,
+.hab3:hover p,
+.hab4:hover p,
+.hab5:hover p  {
+    visibility: visible;
+}
+
+
+.fa-brands, 
+.fa-solid {
+    margin-top: 2rem;
+    font-size: 10rem;
+    color: var(--general_color);
+    letter-spacing: 3rem;
+}
+
+.hab1 >.fa-brands:hover{
+    color:#d4551a
+}
+
+.hab2 >.fa-brands:hover {
+    color: #1a2a88;
+}
+
+.hab3 >.fa-brands:hover {
+    color: #be174a;
+}
+
+.fa-solid:hover {
+    color:#4a1061;
+}
+
+.hab5 >.fa-brands:hover {
+    color: #b98800;
 }
 
 .foot {
