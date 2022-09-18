@@ -5,6 +5,7 @@
 }
 
 html {
+    background-color: #b9c0e4;
     box-sizing: border-box;
 }
   *, *:before, *:after {
@@ -68,17 +69,6 @@ h1 {
     font-size: 1.2rem;
 }
 
-.main {
-    margin:0;
-    width: 100%;
-    height: 150vh;
-    background-color: #91a9cc9a;
-}
-
-.main h2 {
-    display: inline-block;
-}
-
 .main img[src="img/whatsapp-logo.webp"] {
     width: 3rem;
     height: 3rem;
@@ -110,7 +100,8 @@ h1 {
     position: absolute;
     top: 25vh;
     left: calc(var(--header_img_margin) * 3 + var(--header_img_width));
-    width: 35vw;
+    width: 40vw;
+    height: 70vh;
 }
 
 .about-me p {
@@ -130,65 +121,37 @@ h1 {
 .habilities {
     width: 100%;
     height: 50vh;
-    text-align: center;
 }
 
 .habilities h3 {
-    position: relative;
     font-size: 1.5rem;
     color: var(--general_color);
     font-weight: 700;
+    text-align: center;
 }
 
-.hab1, 
+.hab1 {
+    margin-left: calc(var(--header_img_margin) * 3 + var(--header_img_width));
+}
+
+.hab1,
 .hab2,
 .hab3,
 .hab4,
 .hab5 {
+    width: 10%;
+    text-align: center;
     display: inline-block;
+    margin-right: 8%;
 }
 
-.hab1 p {
-    position: absolute;
-    left: 13.5rem;
-    color: var(--general_color);
-    font-size: 1.5rem;
-    font-weight: 600;
-    visibility: hidden;
-}
-
-.hab2 p {
-    position: absolute;
-    left: 25rem;
-    color: var(--general_color);
-    font-size: 1.5rem;
-    font-weight: 600;
-    visibility: hidden;
-}
-
-.hab3 p {
-    position: absolute;
-    left: 36.5rem;
-    color: var(--general_color);
-    font-size: 1.5rem;
-    font-weight: 600;
-    visibility: hidden;
-}
-
-.hab4 p {
-    position: absolute;
-    left: 48rem;
-    color: var(--general_color);
-    font-size: 1.5rem;
-    font-weight: 600;
-    visibility: hidden;
-}
-
+.hab1 p,
+.hab2 p,
+.hab3 p,
+.hab4 p,
 .hab5 p {
-    position: absolute;
-    left: 62.5rem;
     color: var(--general_color);
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 600;
     visibility: hidden;
 }
@@ -205,13 +168,12 @@ h1 {
 .fa-brands, 
 .fa-solid {
     margin-top: 2rem;
-    font-size: 10rem;
-    color: var(--general_color);
-    letter-spacing: 3rem;
+    font-size: 500%;
+    color: var(--general_color); 
 }
 
-.hab1 >.fa-brands:hover{
-    color:#d4551a
+.hab1 >.fa-brands:hover {
+    color:#d4551a;
 }
 
 .hab2 >.fa-brands:hover {
